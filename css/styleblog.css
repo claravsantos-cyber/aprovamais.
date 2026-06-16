@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+.topo{
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    border-bottom:1px solid #ddd;
+}
+
+.logo img{
+    height:40px;
+}
+
+.menu{
+    display:flex;
+    gap:25px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#333;
+    font-size:14px;
+}
+
+.menu a:hover{
+    color:#3f2cff;
+}
+
+.perfil{
+    font-size:18px;
+}
+
+
+
+.container-blog{
+    max-width:1200px;
+    margin:auto;
+    padding:40px;
+}
+
+.titulo-blog{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.icone{
+    font-size:55px;
+}
+
+.filtros{
+    display:flex;
+    justify-content:flex-end;
+    gap:10px;
+    margin-bottom:25px;
+}
+
+.filtros input,
+.filtros select{
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+.posts{
+    display:flex;
+    gap:20px;
+}
+
+.post-destaque{
+    flex:1;
+    background:white;
+    border:1px solid #ccc;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+.post-destaque img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+.conteudo-post{
+    padding:20px;
+}
+
+.conteudo-post h2{
+    margin-bottom:15px;
+}
+
+.conteudo-post p{
+    margin-bottom:20px;
+}
+
+.posts-laterais{
+    width:420px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.mini-post{
+    display:flex;
+    gap:15px;
+    background:white;
+    border:1px solid #ccc;
+    border-radius:8px;
+    padding:10px;
+}
+
+.mini-post img{
+    width:120px;
+    height:90px;
+    object-fit:cover;
+    border-radius:6px;
+}
+
+.mini-post h3{
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+.mini-post p{
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+.mini-post span{
+    font-size:13px;
+    color:#666;
+}
+
+/* FOOTER */
+
+footer{
+    background:#3f2cff;
+    color:white;
+    padding:50px 0;
+    margin-top:50px;
+}
+
+footer h5{
+    margin-bottom:15px;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+    line-height:2;
+}
+
+footer p{
+    color:#ddd;
+}
+
